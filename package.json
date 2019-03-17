@@ -1,7 +1,7 @@
 {
   "name": "@kwsites/cms-build-tools",
   "description": "Build tools for use with the @kwsites/cms- range of modules",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": false,
   "author": "Steve King <steve@mydev.co>",
   "contributors": [
