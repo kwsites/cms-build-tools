@@ -1,0 +1,26 @@
+{
+  "name": "@kwsites/cms-build-tools",
+  "description": "Build tools for use with the @kwsites/cms- range of modules",
+  "version": "0.0.0",
+  "private": false,
+  "author": "Steve King <steve@mydev.co>",
+  "contributors": [
+    {
+      "name": "Steve King",
+      "email": "steve@mydev.co"
+    }
+  ],
+  "bin": {
+    "cms": "./bin/cms.js"
+  },
+  "scripts": {
+    "postversion": "npm publish --access public && git push && git push --tags"
+  },
+  "files": [
+    "*.js",
+    "bin/**/*.js",
+    "scripts/**/*.js"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/kwsites/cms-build-tools.git"
+}
